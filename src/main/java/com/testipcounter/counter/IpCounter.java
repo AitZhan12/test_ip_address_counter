@@ -35,8 +35,6 @@ public class IpCounter implements FileReader{
         System.out.print("ip address count  " + ipAddressSet.size() + " ");
     }
 
-
-
     @Override
     public void closeReader(BufferedReader bufferedReader) {
         if (bufferedReader != null) {
